@@ -16,27 +16,19 @@
   <body>
 
     <?php
-
-        if ($vedi_Lista == 'si') {
-
+        if ($vedi_lista == 'si') {
     ?>
-
         <ul>
             <?php
-
                 $a = ['arancia', 'carota', 'banana', 'frutta', 'mandarino'];
-
                 foreach ($a as $nome)
-                
                 {
                     print '<li>'.$nome.'</li>';
                 }
-
             ?>
         </ul>
             <?php 
         }
-
             ?>
 
 
